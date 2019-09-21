@@ -56,7 +56,7 @@ Assuming the 0.18.1 version, to launch Bitcoin Core browse to /bitcoin-0.18.1/bi
 
 Bitcoin Core will ask you to choose a directory for the data folder. Leaving the default one will lead to Core being removed at shut down, so choose the directory previously created inside the persistent storage.
 
-The blockchain synch will start, the time needed will widly change based on your configuration. 
+The blockchain synch will start, the time needed will widely change based on your configuration. 
 On a laptop with 8GB ram, Intel core i5 3.4GHz, USB 3.0 and optical fiber internet, took ~ 24 hours.
 
 Once the synching is over, the node is ready to use.
