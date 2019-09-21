@@ -46,7 +46,7 @@ https://old.reddit.com/r/WasabiWallet/comments/9s7d1v/run_wasabi_in_portable_mod
 
 **OFFLINE SETUP**
 
-Using Tails + persistent storage completely offline can be useful to create your personal "hardware wallet" with a lot of tools. 
+Using Tails + persistent storage completely offline can be useful to create your personal "hardware wallet", you can use it as part of a multisig for example.
 
 ---
 
