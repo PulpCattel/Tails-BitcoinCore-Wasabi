@@ -24,7 +24,6 @@
 * https://bitcoin.org/en/full-node
 * https://bitcoincore.org/en/about
 * https://bitcoincore.org/en/download/
-* https://tails.boum.org/doc/encryption_and_privacy/virtual_keyboard/index.en.html
 * https://en.bitcoin.it/wiki/Running_Bitcoin#Bitcoin.conf_Configuration_File
 * https://www.reddit.com/r/tails/comments/3ecttp/running_bitcoin_core_bitcoinqt_on_tails
 
