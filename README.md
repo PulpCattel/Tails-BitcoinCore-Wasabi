@@ -38,7 +38,7 @@
 
 Every program we are gonna use is free and open source software, my job here is mainly to arrange the different sources in a straightforward tutorial on how to recreate this setup. 
 
-I’ll put quotes with step by step procedures. In the reference links you’ll find extensive explanation of every step, technical support and documentation.
+I’ll put quotes with step by step procedures. In the reference links you’ll find extensive explanations of every step, technical support and documentation.
 
 As usual, don’t trust, verify!
 
