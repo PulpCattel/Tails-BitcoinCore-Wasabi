@@ -22,7 +22,7 @@
 **TARGETS**
 
 * Small and very well designed live OS.
-* Safe new environment that leaves no traces and retain files only if explicitly request.
+* Safe new environment that leaves no traces and retains files only if explicitly request.
 * Portable setup that can be started from almost any computer.
 
 
