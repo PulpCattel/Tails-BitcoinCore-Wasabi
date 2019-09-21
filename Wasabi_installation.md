@@ -80,7 +80,7 @@ After the first time you save a Wasabi session, your persistent storage will loo
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `/Blocks` (blocks)    
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `/BitcoinStore` (filters)  
 
-To load your saved session, drop the ./walletwasabi folder into /Home before starting Wasabi.  
+To load your saved session, drop the .walletwasabi folder into /Home before starting Wasabi.  
  
 
 You can save multiple copies of .walletwasabi in your persistent, each with different data: 
