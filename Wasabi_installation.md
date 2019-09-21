@@ -28,9 +28,9 @@ You can now save your Wasabi-X.X.X.deb into the persistent storage, which at thi
 
 As of version 1.1.9 Wasabi doesn’t offer easy ways, especially without command line, to change install directory. There is though a quick workaround.
 
-Wasabi save session files in /Home/.walletwasabi/client, you need to mark the “show hidden files” setting to see it. 
+Wasabi saves session files in /Home/.walletwasabi/client, you need to mark the “show hidden files” setting to see it. 
 
-Create a directory in your persistent with the same hierarchial structure, like this:
+Create a directory in your persistent with the same hierarchical structure, like this:
 
 `/Persistent`  
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `/bitcoin-0.18.1` (Bitcoin Core launcher folder)   
