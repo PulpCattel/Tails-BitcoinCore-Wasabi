@@ -17,7 +17,7 @@ Verify the download. As of now (Bitcoin block 595524), the Wasabi PGP key finger
 
 (Source: https://docs.wasabiwallet.io/using-wasabi/InstallPackage.html#debian-and-ubuntu)
 
-You can now save your Wasabi-X.X.X.deb into the persistent storage, which at this point should look like this:
+You can now save your `Wasabi-X.X.X.deb` into the persistent storage, which at this point should look like this:
 
 `/Persistent`  
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `/bitcoin-0.18.1` (Bitcoin Core launcher folder)  
@@ -49,7 +49,7 @@ Could be also nice to save the `BitcoinStore` folder, which contains the filters
 
 **INSTALL WASABI**
 
-Drop the Wasabi-X.X.X.deb file from `/Home/Persistent` into desktop.
+Drop the `Wasabi-X.X.X.deb` file from `/Home/Persistent` into desktop.
 
 Open the terminal and run:
 
@@ -80,9 +80,9 @@ After the first time you save a Wasabi session, your persistent storage will loo
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `/Blocks` (blocks)     
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `/BitcoinStore` (filters)  
 
-To load your saved session, drop the .walletwasabi folder into /Home before starting Wasabi.
+To load your saved session, drop the `.walletwasabi` folder into `/Home` before starting Wasabi.
  
-You can save multiple copies of .walletwasabi in your persistent, each with different data:
+You can save multiple copies of `.walletwasabi` in your persistent, each with different data:
 
 `/Persistent`  
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `/bitcoin-0.18.1` (Bitcoin Core launcher folder)    
