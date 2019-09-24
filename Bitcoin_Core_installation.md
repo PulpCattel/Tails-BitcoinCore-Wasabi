@@ -15,7 +15,7 @@ As of now (Bitcoin block 595524), the Bitcoin Core PGP key fingerprint is: `01EA
 Extract your bitcoin.tar.gz file in the persistent storage.
 
 `/Persistent`  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `/bitcoin-0.18.1` (Bitcoin Core launcher folder)   
+&emsp; `/bitcoin-0.18.1` (Bitcoin Core launcher folder)   
 
 
 **CREATE CONFIGURATION FILE**
@@ -29,9 +29,9 @@ In order to make it work with Tails and a USB, we need to slightly configure our
 Create a folder inside the persistent storage, e.g. `Bitcoin`, this’ll be the Bitcoin Core data directory. Create with text editor a bitcoin.conf file inside it.
 
 `/Persistent`  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `/bitcoin-0.18.1` (Bitcoin Core launcher folder)     
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `/Bitcoin`  (Bitcoin Core data folder)   
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `bitcoin.conf` (Configuration file)  
+&emsp; `/bitcoin-0.18.1` (Bitcoin Core launcher folder)     
+&emsp; `/Bitcoin`  (Bitcoin Core data folder)   
+&emsp; &emsp; `bitcoin.conf` (Configuration file)  
 
 First we need pruning, since we likely don’t have >256GB in our storage. Add:
 
