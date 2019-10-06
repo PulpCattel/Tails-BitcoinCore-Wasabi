@@ -85,19 +85,19 @@ To load your saved session, drop the `.walletwasabi` folder into `/Home` before 
 You can save multiple copies of `.walletwasabi` in your persistent, each with different data:
 
 `/Persistent`  
-&emsp; `/bitcoin-0.18.1` (Bitcoin Core launcher folder)    
-&emsp; `/Bitcoin`  (Bitcoin Core data folder)  
-&emsp; `/Wasabi`   
+&emsp; `/bitcoin-0.18.1` (Bitcoin Core launcher folder)   
+&emsp; `/Bitcoin` (Bitcoin Core data folder)  
+&emsp; `/Wasabi` (General Wasabi folder)  
 &emsp; &emsp; `/Wasabi-X.X.X.deb` (Wasabi installer)  
 &emsp; &emsp; `/BitcoinStore` (No need to keep multiple copies of same filters)  
 &emsp; &emsp; `/CoinJoin wallet`   
-&emsp; &emsp; &emsp; `/.walletwasabi`    
-&emsp; &emsp; &emsp; &emsp; `/client` (here we save our wallet files, filters and blocks)   
-&emsp; &emsp; &emsp; &emsp; &emsp; `/Wallets` (wallet files)   
+&emsp; &emsp; &emsp; `/.walletwasabi`   
+&emsp; &emsp; &emsp; &emsp; `/client` (here we save our wallet files, filters and blocks)  
+&emsp; &emsp; &emsp; &emsp; &emsp; `/Wallets` (wallet files)  
 &emsp; &emsp; &emsp; &emsp; &emsp; `/Blocks` (blocks)  
-&emsp; &emsp; `/watch-only coldstorage A`   
-&emsp; &emsp; &emsp; `/.walletwasabi`    
-&emsp; &emsp; &emsp; &emsp; `/client` (here we save our wallet files, filters and blocks)   
+&emsp; &emsp; `/watch-only coldstorage A`  
+&emsp; &emsp; &emsp; `/.walletwasabi`  
+&emsp; &emsp; &emsp; &emsp; `/client` (here we save our wallet files, filters and blocks)  
 &emsp; &emsp; &emsp; &emsp; &emsp; `/Wallets` (wallet files)   
 &emsp; &emsp; &emsp; &emsp; &emsp; `/Blocks` (blocks)  
 &emsp; &emsp; `/watch-only coldstorage B`   
