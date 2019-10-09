@@ -28,7 +28,7 @@
 
 **ADDITIONAL TARGETS**
 
-* Only-Tor inbuilt network.
+* Only-[Tor](https://en.wikipedia.org/wiki/Tor_(anonymity_network)) inbuilt network.
 * Isolated environment to manage private keys and highly valuable informations.
 * Simple, little to no command line required.
 * Low hardware requirements.
