@@ -1,6 +1,6 @@
 # Create persistent storage
 
-Tails is awesome as an “amnesic” system, but we actually need to retain some files between different sessions, our full node for example. What Tails allow us to do is create an encrypted LUKS volume.
+Tails is awesome as an “amnesic” system, but we actually need to retain some files between different sessions, our full node for example. What Tails allow us to do is create an encrypted [LUKS](https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup) volume.
 
 It's extremely easy to do, but first give a look at the [warnings](https://tails.boum.org/doc/first_steps/persistence/warnings/index.en.html
 )!
@@ -18,7 +18,7 @@ Remember that Tails is not a magic wand.
 
 (Source: https://tails.boum.org/install/clone/index.en.html#create-persistence)
 
-We only need the *Personal Data* option, though a possible useful one is the *GnuPG*.
+We only need the [*Personal Data*](https://tails.boum.org/doc/first_steps/persistence/configure/index.en.html#index1h2) option, though a possible useful one is the [*GnuPG*](https://tails.boum.org/doc/first_steps/persistence/configure/index.en.html#index7h2).
 
 I highly encourage you to leave every other option unchecked unless you have a very strong reason to do otherwise. 
 Messing up with the persistent storage could nullify most of the Tails benefits.
