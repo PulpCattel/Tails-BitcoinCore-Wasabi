@@ -47,13 +47,19 @@
 
 * https://help.ubuntu.com/lts/serverguide/dpkg.html
 
-**EXTRA COOL STUFF**
+**AIR-GAP WITH HARDWARE WALLET**
 
 * https://github.com/bitcoin/bitcoin/blob/master/doc/psbt.md
 * https://github.com/Coldcard/firmware/blob/master/docs/bitcoin-core-usage.md
 * https://coldcardwallet.com/docs/quick
 * https://www.youtube.com/watch?v=aU8ysH9JH9M
+
+**LEVERAGE THE BEAUTY OF TAILS**
+
 * https://github.com/iancoleman/bip39
+
+**LINUX ADVANCED USERS**
+
 * https://github.com/zkSNACKs/WalletWasabi/issues/763
 * https://github.com/zkSNACKs/WalletWasabi/pull/1368
 * https://old.reddit.com/r/WasabiWallet/comments/9s7d1v/run_wasabi_in_portable_mode_from_usb/?st=k0r1vj19&sh=cc08530c  
