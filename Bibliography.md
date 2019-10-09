@@ -27,7 +27,6 @@
 * https://en.bitcoin.it/wiki/Running_Bitcoin#Bitcoin.conf_Configuration_File
 * https://www.reddit.com/r/tails/comments/3ecttp/running_bitcoin_core_bitcoinqt_on_tails
 
-
 **WASABI**
 
 * http://wasabiukrxmkdgve5kynjztuovbg43uxcbcxn6y2okcrsg7gb6jdmbad.onion/
@@ -36,6 +35,13 @@
 * https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-are-bip-158-block-filters
 * https://docs.wasabiwallet.io/using-wasabi/InstallPackage.html#debian-and-ubuntu
 
+**BOOT MENU**
+
+* https://www.computerhope.com/jargon/b/boot_menu.htm
+
+**LINUX**
+
+* https://en.wikipedia.org/wiki/Debian
 
 **DPKG**
 
