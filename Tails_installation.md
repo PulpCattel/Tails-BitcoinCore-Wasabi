@@ -14,7 +14,7 @@ At this point could be useful to open the instructions on another device, write 
 
 We have to make the computer start from the USB stick.
 
-Following the Tails step by step [guide](https://tails.boum.org/install/linux/usb/#back), first try to set the USB as booting device from boot menu. 
+Following the Tails step by step [guide](https://tails.boum.org/install/linux/usb/#back), first try to set the USB as booting device from [boot menu](https://www.computerhope.com/jargon/b/boot_menu.htm). 
 
 If your usb doesn’t show in the boot list you probably need to disable “fast boot” or switch from “legacy mode” to “UEFI mode”, or the other way around, in the BIOS settings.
 
@@ -30,7 +30,7 @@ If something go south, try give a look at https://tails.boum.org/support/known_i
 
 **TAILS**
 
-This is your Tails desktop. If you've never used Linux before, you could feel a bit weird. Don't worry, the interface is clear and simple:
+This is your Tails desktop. If you've never used [Linux](https://en.wikipedia.org/wiki/Debian) before, you could feel a bit weird. Don't worry, the interface is clear and simple:
 
 * top left: Application menu, here you find all inbuilt programs.
 * top right: Wi-fi, account, settings and shutdown.
