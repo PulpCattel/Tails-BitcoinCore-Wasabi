@@ -43,6 +43,10 @@
 
 * https://en.wikipedia.org/wiki/Debian
 
+**LUKS**
+
+* https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup
+
 **DPKG**
 
 * https://help.ubuntu.com/lts/serverguide/dpkg.html
