@@ -10,7 +10,7 @@ Linux installer can be found here https://bitcoincore.org/en/download/.
 
 Verify the package downloaded and the official site.
 
-As of now (Bitcoin block 595524), the Bitcoin Core PGP key fingerprint is: `01EA 5486 DE18 A882 D4C2  6845 90C8 019E 36C2 E964`
+As of now (Bitcoin's block 609596), the Bitcoin Core PGP key fingerprint is: `01EA 5486 DE18 A882 D4C2  6845 90C8 019E 36C2 E964`
 
 Extract your bitcoin.tar.gz file in the persistent storage.
 
