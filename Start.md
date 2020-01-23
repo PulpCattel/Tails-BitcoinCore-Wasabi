@@ -49,7 +49,7 @@ Bitcoin core is the reference implementation of Bitcoin full node and the most r
 
 (Documentation: https://docs.wasabiwallet.io)
 
-Wasabi allows us to use CoinJoin, it offers a wonderful PSBT implementation and by default does not send our public informations to their server (look at [BIP-158](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-are-bip-158-block-filters)).
+Wasabi allows us to use CoinJoin, it offers a wonderful PSBT implementation and by default does not send our public information to their servers (look at [BIP-158](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-are-bip-158-block-filters)).
 
 ---
 Next:  
