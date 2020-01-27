@@ -9,7 +9,7 @@ You need sudo privileges to install Wasabi, at “Tails Greeter” create your a
 **DOWNLOAD**
 
 Download for Debian/Ubuntu from:  
-http://wasabiukrxmkdgve5kynjztuovbg43uxcbcxn6y2okcrsg7gb6jdmbad.onion (onion link)  
+http://wasabiukrxmkdgve5kynjztuovbg43uxcbcxn6y2okcrsg7gb6jdmbad.onion (Tor onion link)  
 or  
 https://www.wasabiwallet.io/#download
 
@@ -26,7 +26,7 @@ You can now save your `Wasabi-X.X.X.deb` into the persistent storage, which at t
 
 **WASABI DATA FOLDER**
 
-As of version 1.1.9 Wasabi doesn’t offer easy ways, especially without command line, to change install directory. There is though a quick workaround.
+As of version 1.1.10.2 Wasabi doesn’t offer easy ways, especially without command line, to change install directory. There is though a quick workaround.
 
 Wasabi [saves session files](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#where-can-i-find-the-wasabi-data-folder) in `/Home/.walletwasabi/client`, you need to mark the “show hidden files” setting to see it.
 
@@ -49,7 +49,7 @@ Could be also nice to save the `BitcoinStore` folder, which contains the filters
 
 **INSTALL WASABI**
 
-Drop the `Wasabi-X.X.X.deb` file from `/Home/Persistent` into desktop.
+Copy and paste the `Wasabi-X.X.X.deb` file from `/Home/Persistent` into desktop.
 
 Open the terminal and run:
 
@@ -80,7 +80,7 @@ After the first time you save a Wasabi session, your persistent storage will loo
 &emsp; &emsp; &emsp; `/Blocks` (blocks)     
 &emsp; &emsp; &emsp; `/BitcoinStore` (filters)  
 
-To load your saved session, drop the `.walletwasabi` folder into `/Home` before starting Wasabi.
+To load your saved session, copy and paste the `.walletwasabi` folder into `/Home` before starting Wasabi.
  
 You can save multiple copies of `.walletwasabi` in your persistent, each with different data:
 
