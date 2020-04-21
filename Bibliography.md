@@ -12,7 +12,7 @@
 * https://tails.boum.org/doc/first_steps/persistence/configure/index.en.html
 * https://tails.boum.org/doc/first_steps/persistence/delete/index.en.html
 * https://tails.boum.org/doc/anonymous_internet/networkmanager/index.en.html
-* https://tails.boum.org/doc/first_steps/startup_options/administration_password/index.en.html
+* https://tails.boum.org/doc/first_steps/welcome_screen/administration_password/index.en.html
 * https://tails.boum.org/install/download/index.en.html  
 * https://tails.boum.org/install/linux/usb/#back
 * https://tails.boum.org/support/known_issues/index.en.html
@@ -39,7 +39,7 @@
 
 * https://www.computerhope.com/jargon/b/boot_menu.htm
 
-**LINUX**
+**DEBIAN**
 
 * https://en.wikipedia.org/wiki/Debian
 

@@ -2,7 +2,7 @@
 
 **DOWNLOAD**
 
-Let’s use Tails to download Bitcoin Core. 
+Let’s use Tails to download Bitcoin Core.
 
 If Tails is correctly installed, you should be able to setup the [internet connection](https://tails.boum.org/doc/anonymous_internet/networkmanager/index.en.html) and open the Tor Browser. 
 
@@ -10,12 +10,12 @@ Linux installer can be found here https://bitcoincore.org/en/download/.
 
 Verify the package downloaded and the official site.
 
-As of now (Bitcoin's block 609596), the Bitcoin Core PGP key fingerprint is: `01EA 5486 DE18 A882 D4C2  6845 90C8 019E 36C2 E964`
+As of now (Bitcoin's block 627049), the Bitcoin Core PGP key fingerprint is: `01EA 5486 DE18 A882 D4C2 6845 90C8 019E 36C2 E964`
 
 Extract your bitcoin.tar.gz file in the persistent storage.
 
 `/Persistent`  
-&emsp; `/bitcoin-0.18.1` (Bitcoin Core launcher folder)   
+&emsp; `/bitcoin-0.19.1` (Bitcoin Core launcher folder)   
 
 
 **CREATE CONFIGURATION FILE**
@@ -29,8 +29,8 @@ In order to make it work with Tails and a USB, we need to slightly configure our
 Create a folder inside the persistent storage, e.g. `Bitcoin`, this’ll be the Bitcoin Core data directory. Create with text editor a bitcoin.conf file inside it.
 
 `/Persistent`  
-&emsp; `/bitcoin-0.18.1` (Bitcoin Core launcher folder)     
-&emsp; `/Bitcoin`  (Bitcoin Core data folder)   
+&emsp; `/bitcoin-0.19.1` (Bitcoin Core launcher folder)     
+&emsp; `/Bitcoin` (Bitcoin Core data folder)   
 &emsp; &emsp; `bitcoin.conf` (Configuration file)  
 
 First we need pruning, since we likely don’t have >256GB in our storage. Add:
@@ -52,7 +52,7 @@ Your bitcoin.conf will look like this:
 
 **LAUNCH BITCOIN CORE**
 
-Assuming the 0.18.1 version, to launch Bitcoin Core browse to /bitcoin-0.18.1/bin, drag the “bitcoin-qt” file into a terminal and press enter. 
+Assuming the 0.19.1 version, to launch Bitcoin Core browse to /bitcoin-0.19.1/bin, drag the “bitcoin-qt” file into a terminal and press enter. 
 
 Bitcoin Core will ask you to choose a directory for the data folder. Leaving the default one will lead to Core being removed at shut down, so choose the directory previously created inside the persistent storage.
 

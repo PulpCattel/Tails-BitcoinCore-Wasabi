@@ -1,10 +1,17 @@
 # Wasabi installation
 
+(You can also refer to the [Wasabi setup on Tails](https://docs.wasabiwallet.io/using-wasabi/WasabiSetupTails.html#wasabi-setup-on-tails) included in the Wasabi documentation, which is based on this guide and more likely to be up to date)
+
 **CREATE ADMIN PASSWORD**
 
 You need sudo privileges to install Wasabi, at “Tails Greeter” create your admin password in “additional settings” and launch Tails.
 
-(Source: https://tails.boum.org/doc/first_steps/startup_options/administration_password/index.en.html)
+(Source: https://tails.boum.org/doc/first_steps/welcome_screen/administration_password/index.en.html)
+
+:bulb: If you don't want to activate root privileges, you can download Wasabi in .tar.gz format (other Linux) and extract it into the persistent storage.
+This way, you can launch Wasabi from the terminal via `./wassabee` command without installing any .deb package.
+
+(Source: https://docs.wasabiwallet.io/using-wasabi/InstallPackage.html#other-linux)
 
 **DOWNLOAD**
 
@@ -13,27 +20,27 @@ http://wasabiukrxmkdgve5kynjztuovbg43uxcbcxn6y2okcrsg7gb6jdmbad.onion (Tor onion
 or  
 https://www.wasabiwallet.io/#download
 
-Verify the PGP signature of the downloaded package. As of now (Bitcoin block 609596), the zkSNACKs' PGP key fingerprint is:   `6FB3 872B 5D42 292F 5992 0797 8563 4832 8949 861E`.
+Verify the PGP signature of the downloaded package. As of now (Bitcoin block 627049), the zkSNACKs' PGP key fingerprint is:   `6FB3 872B 5D42 292F 5992 0797 8563 4832 8949 861E`.
 
 (Source: https://docs.wasabiwallet.io/using-wasabi/InstallPackage.html#debian-and-ubuntu)
 
 You can now save your `Wasabi-X.X.X.deb` into the persistent storage, which at this point should look like this:
 
 `/Persistent`  
-&emsp; `/bitcoin-0.18.1` (Bitcoin Core launcher folder)  
+&emsp; `/bitcoin-0.19.1` (Bitcoin Core launcher folder)  
 &emsp; `/Bitcoin`  (Bitcoin Core data folder)  
 &emsp; `/Wasabi-X.X.X.deb` (Wasabi installer)  
 
 **WASABI DATA FOLDER**
 
-As of version 1.1.10.2 Wasabi doesn’t offer easy ways, especially without command line, to change install directory. There is though a quick workaround.
+As of version 1.1.11 Wasabi doesn’t offer easy ways, especially without command line, to change install directory. There is though a quick workaround.
 
 Wasabi [saves session files](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#where-can-i-find-the-wasabi-data-folder) in `/Home/.walletwasabi/client`, you need to mark the “show hidden files” setting to see it.
 
 Create a directory in your persistent with the same hierarchical structure, like this:
 
 `/Persistent`  
-&emsp; `/bitcoin-0.18.1` (Bitcoin Core launcher folder)  
+&emsp; `/bitcoin-0.19.1` (Bitcoin Core launcher folder)  
 &emsp; `/Bitcoin`  (Bitcoin Core data folder)  
 &emsp; `/Wasabi-X.X.X.deb` (Wasabi installer)  
 &emsp; `/.walletwasabi`  
@@ -71,7 +78,7 @@ Wasabi will show as a normal application in your activities overview menu, ready
 After the first time you save a Wasabi session, your persistent storage will look like:
 
 `/Persistent`  
-&emsp; `/bitcoin-0.18.1` (Bitcoin Core launcher folder)  
+&emsp; `/bitcoin-0.19.1` (Bitcoin Core launcher folder)  
 &emsp; `/Bitcoin`  (Bitcoin Core data folder)  
 &emsp; `/Wasabi-X.X.X.deb` (Wasabi installer)  
 &emsp; `/.walletwasabi`  
@@ -85,7 +92,7 @@ To load your saved session, copy and paste the `.walletwasabi` folder into `/Hom
 You can save multiple copies of `.walletwasabi` in your persistent, each with different data:
 
 `/Persistent`  
-&emsp; `/bitcoin-0.18.1` (Bitcoin Core launcher folder)   
+&emsp; `/bitcoin-0.19.1` (Bitcoin Core launcher folder)   
 &emsp; `/Bitcoin` (Bitcoin Core data folder)  
 &emsp; `/Wasabi` (General Wasabi folder)  
 &emsp; &emsp; `/Wasabi-X.X.X.deb` (Wasabi installer)  

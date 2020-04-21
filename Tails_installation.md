@@ -30,7 +30,7 @@ If something go south, try give a look at https://tails.boum.org/support/known_i
 
 **TAILS**
 
-This is your Tails desktop. If you've never used [Linux](https://en.wikipedia.org/wiki/Debian) before, you could feel a bit weird. Don't worry, the interface is clear and simple:
+This is your Tails desktop. If you've never used [Debian](https://en.wikipedia.org/wiki/Debian) before, you could feel a bit weird. Don't worry, the interface is clear and simple:
 
 * top left: Application menu, here you find all inbuilt programs.
 * top right: Wi-fi, account, settings and shutdown.
