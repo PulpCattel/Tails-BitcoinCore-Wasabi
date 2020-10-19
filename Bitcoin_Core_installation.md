@@ -6,7 +6,10 @@ Let’s use Tails to download Bitcoin Core.
 
 If Tails is correctly installed, you should be able to setup the [internet connection](https://tails.boum.org/doc/anonymous_internet/networkmanager/index.en.html) and open the Tor Browser.
 
-Linux installer can be found here https://bitcoincore.org/en/download/.
+Download `Linux (tgz)` package from:  
+http://6hasakffvppilxgehrswmffqurlcjjjhd76jgvaqmsg6ul25s7t3rzyd.onion/en/download/ (Tor onion link)  
+or  
+https://bitcoincore.org/en/download/
 
 Verify the package downloaded and the official site.
 
