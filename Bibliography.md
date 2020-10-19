@@ -24,8 +24,9 @@
 * https://bitcoin.org/en/full-node
 * https://bitcoincore.org/en/about
 * https://bitcoincore.org/en/download/
+* http://6hasakffvppilxgehrswmffqurlcjjjhd76jgvaqmsg6ul25s7t3rzyd.onion
 * https://en.bitcoin.it/wiki/Running_Bitcoin#Bitcoin.conf_Configuration_File
-* https://www.reddit.com/r/tails/comments/3ecttp/running_bitcoin_core_bitcoinqt_on_tails
+* https://bitcoin.stackexchange.com/questions/70069/how-can-i-setup-bitcoin-to-be-anonymous-with-tor
 
 **WASABI**
 
@@ -53,7 +54,7 @@
 
 **DPKG**
 
-* https://help.ubuntu.com/lts/serverguide/dpkg.html
+* https://manpages.ubuntu.com/manpages/focal/man1/dpkg.1.html
 
 **AIR-GAP WITH HARDWARE WALLET**
 
