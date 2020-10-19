@@ -15,9 +15,9 @@ This way, you can launch Wasabi from the terminal via `./wassabee` command witho
 
 **DOWNLOAD**
 
-Download for Debian/Ubuntu from:
-http://wasabiukrxmkdgve5kynjztuovbg43uxcbcxn6y2okcrsg7gb6jdmbad.onion (Tor onion link)
-or
+Download for Debian/Ubuntu from:  
+http://wasabiukrxmkdgve5kynjztuovbg43uxcbcxn6y2okcrsg7gb6jdmbad.onion (Tor onion link)  
+or  
 https://www.wasabiwallet.io/#download
 
 Verify the PGP signature of the downloaded package. As of now (Bitcoin block 653435), the zkSNACKs' PGP key fingerprint is:   `6FB3 872B 5D42 292F 5992 0797 8563 4832 8949 861E`.
@@ -26,9 +26,9 @@ Verify the PGP signature of the downloaded package. As of now (Bitcoin block 653
 
 You can now save your `Wasabi-X.X.X.deb` into the persistent storage, which at this point should look like this:
 
-`/Persistent`
-&emsp; `/bitcoin-0.20.1` (Bitcoin Core launcher folder)
-&emsp; `/Bitcoin`  (Bitcoin Core data folder)
+`/Persistent`  
+&emsp; `/bitcoin-0.20.1` (Bitcoin Core launcher folder)  
+&emsp; `/Bitcoin`  (Bitcoin Core data folder)  
 &emsp; `/Wasabi-X.X.X.deb` (Wasabi installer)
 
 **WASABI DATA FOLDER**
@@ -39,11 +39,11 @@ Wasabi [saves session files](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html
 
 Create a directory in your persistent with the same hierarchical structure, like this:
 
-`/Persistent`
-&emsp; `/bitcoin-0.20.1` (Bitcoin Core launcher folder)
-&emsp; `/Bitcoin`  (Bitcoin Core data folder)
-&emsp; `/Wasabi-X.X.X.deb` (Wasabi installer)
-&emsp; `/.walletwasabi`
+`/Persistent`  
+&emsp; `/bitcoin-0.20.1` (Bitcoin Core launcher folder)  
+&emsp; `/Bitcoin`  (Bitcoin Core data folder)  
+&emsp; `/Wasabi-X.X.X.deb` (Wasabi installer)  
+&emsp; `/.walletwasabi`  
 &emsp; &emsp; `/client` (here we save our wallet files, filters and blocks)
 
 After every session, when you’re done, navigate into `/Home/.walletwasabi/client` and copy the desired folders into your persistent directory.
@@ -60,7 +60,7 @@ Copy and paste the `Wasabi-X.X.X.deb` file from `/Home/Persistent` into desktop.
 
 Open the terminal and run:
 
-`$cd Desktop`
+`$cd Desktop`  
 `$sudo dpkg -i Wasabi-X.X.X.deb`
 
 Type the password you created at “Tails Greeter”.
@@ -77,40 +77,40 @@ Wasabi will show as a normal application in your activities overview menu, ready
 
 After the first time you save a Wasabi session, your persistent storage will look like:
 
-`/Persistent`
-&emsp; `/bitcoin-0.20.1` (Bitcoin Core launcher folder)
-&emsp; `/Bitcoin`  (Bitcoin Core data folder)
-&emsp; `/Wasabi-X.X.X.deb` (Wasabi installer)
-&emsp; `/.walletwasabi`
-&emsp; &emsp; `/client` (here we save our wallet files, filters and blocks)
-&emsp; &emsp; &emsp; `/Wallets` (wallet files)
-&emsp; &emsp; &emsp; `/Blocks` (blocks)
-&emsp; &emsp; &emsp; `/BitcoinStore` (filters)
+`/Persistent`  
+&emsp; `/bitcoin-0.20.1` (Bitcoin Core launcher folder)  
+&emsp; `/Bitcoin`  (Bitcoin Core data folder)  
+&emsp; `/Wasabi-X.X.X.deb` (Wasabi installer)  
+&emsp; `/.walletwasabi`  
+&emsp; &emsp; `/client` (here we save our wallet files, filters and blocks)  
+&emsp; &emsp; &emsp; `/Wallets` (wallet files)  
+&emsp; &emsp; &emsp; `/Blocks` (blocks)  
+&emsp; &emsp; &emsp; `/BitcoinStore` (filters)  
 
 To load your saved session, copy and paste the `.walletwasabi` folder into `/Home` before starting Wasabi.
 
 You can save multiple copies of `.walletwasabi` in your persistent, each with different data:
 
-`/Persistent`
-&emsp; `/bitcoin-0.20.1` (Bitcoin Core launcher folder)
-&emsp; `/Bitcoin` (Bitcoin Core data folder)
+`/Persistent`  
+&emsp; `/bitcoin-0.20.1` (Bitcoin Core launcher folder)  
+&emsp; `/Bitcoin` (Bitcoin Core data folder)  
 &emsp; `/Wasabi` (General Wasabi folder)
-&emsp; &emsp; `/Wasabi-X.X.X.deb` (Wasabi installer)
-&emsp; &emsp; `/BitcoinStore` (No need to keep multiple copies of same filters)
-&emsp; &emsp; `/CoinJoin wallet`
-&emsp; &emsp; &emsp; `/.walletwasabi`
-&emsp; &emsp; &emsp; &emsp; `/client` (here we save our wallet files, filters and blocks)
-&emsp; &emsp; &emsp; &emsp; &emsp; `/Wallets` (wallet files)
-&emsp; &emsp; &emsp; &emsp; &emsp; `/Blocks` (blocks)
-&emsp; &emsp; `/watch-only coldstorage A`
-&emsp; &emsp; &emsp; `/.walletwasabi`
-&emsp; &emsp; &emsp; &emsp; `/client` (here we save our wallet files, filters and blocks)
-&emsp; &emsp; &emsp; &emsp; &emsp; `/Wallets` (wallet files)
-&emsp; &emsp; &emsp; &emsp; &emsp; `/Blocks` (blocks)
-&emsp; &emsp; `/watch-only coldstorage B`
-&emsp; &emsp; &emsp; `/.walletwasabi`
-&emsp; &emsp; &emsp; &emsp; `/client` (here we save our wallet files, filters and blocks)
-&emsp; &emsp; &emsp; &emsp; &emsp; `/Wallets` (wallet files)
+&emsp; &emsp; `/Wasabi-X.X.X.deb` (Wasabi installer)  
+&emsp; &emsp; `/BitcoinStore` (No need to keep multiple copies of same filters)  
+&emsp; &emsp; `/CoinJoin wallet`  
+&emsp; &emsp; &emsp; `/.walletwasabi`  
+&emsp; &emsp; &emsp; &emsp; `/client` (here we save our wallet files, filters and blocks)  
+&emsp; &emsp; &emsp; &emsp; &emsp; `/Wallets` (wallet files)  
+&emsp; &emsp; &emsp; &emsp; &emsp; `/Blocks` (blocks)  
+&emsp; &emsp; `/watch-only coldstorage A`  
+&emsp; &emsp; &emsp; `/.walletwasabi`  
+&emsp; &emsp; &emsp; &emsp; `/client` (here we save our wallet files, filters and blocks)  
+&emsp; &emsp; &emsp; &emsp; &emsp; `/Wallets` (wallet files)  
+&emsp; &emsp; &emsp; &emsp; &emsp; `/Blocks` (blocks)  
+&emsp; &emsp; `/watch-only coldstorage B`  
+&emsp; &emsp; &emsp; `/.walletwasabi`  
+&emsp; &emsp; &emsp; &emsp; `/client` (here we save our wallet files, filters and blocks)  
+&emsp; &emsp; &emsp; &emsp; &emsp; `/Wallets` (wallet files)  
 &emsp; &emsp; &emsp; &emsp; &emsp; `/Blocks` (blocks)
 
 This is only a minor example, tune it to your own needs.
