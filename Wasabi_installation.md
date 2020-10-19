@@ -65,7 +65,7 @@ Open the terminal and run:
 
 Type the password you created at “Tails Greeter”.
 
-([Info](https://help.ubuntu.com/lts/serverguide/dpkg.html) about dpkg)
+(Info about [dpkg](https://manpages.ubuntu.com/manpages/focal/man1/dpkg.1.html))
 
 Wasabi will show as a normal application in your activities overview menu, ready to start.
 
