@@ -52,7 +52,7 @@ Your bitcoin.conf will look like this:
 
 **LAUNCH BITCOIN CORE**
 
-Assuming the 0.19.1 version, to launch Bitcoin Core browse to /bitcoin-0.19.1/bin, drag the “bitcoin-qt” file into a terminal and press enter. 
+Assuming the 0.19.1 version, to launch Bitcoin Core browse to `/bitcoin-0.19.1/bin`, drag the `bitcoin-qt` file into a terminal and press enter.
 
 Bitcoin Core will ask you to choose a directory for the data folder. Leaving the default one will lead to Core being removed at shut down, so choose the directory previously created inside the persistent storage.
 

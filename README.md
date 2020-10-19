@@ -14,7 +14,7 @@
 
 **PROBLEMS TO SOLVE**
 
-* Store keys, privacy-concern informations or wallets on low security system with lot of code.
+* Store keys, privacy-concern information or wallets on a low security system with lot of code.
 * Be worried or stressed using your daily computer because it’s a delicate target. 
 * Have a stationary setup, highly impractical if it’s necessary to use it outside its location. 
 
@@ -29,7 +29,7 @@
 **ADDITIONAL TARGETS**
 
 * Only-[Tor](https://en.wikipedia.org/wiki/Tor_(anonymity_network)) inbuilt network.
-* Isolated environment to manage private keys and highly valuable informations.
+* Isolated environment to manage private keys and highly valuable information.
 * Simple, little to no command line required.
 * Low hardware requirements.
 
