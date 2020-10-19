@@ -29,7 +29,7 @@ In order to make it work with Tails and a USB, we need to slightly configure our
 
 (Source: https://en.bitcoin.it/wiki/Running_Bitcoin#Bitcoin.conf_Configuration_File)
 
-Create a folder inside the persistent storage, e.g. `Bitcoin`, this’ll be the Bitcoin Core data directory. Create with text editor a bitcoin.conf file inside it.
+Create a folder inside the persistent storage, e.g. `Bitcoin`, this’ll be the Bitcoin Core data directory. Create with a text editor a `bitcoin.conf` file inside it.
 
 `/Persistent`  
 &emsp; `/bitcoin-0.20.1` (Bitcoin Core launcher folder)  
@@ -46,12 +46,17 @@ Then we need to add a proxy to make Bitcoin Core work with Tor. Add:
 
 `proxy=127.0.0.1:9050`
 
-(Source: https://www.reddit.com/r/tails/comments/3ecttp/running_bitcoin_core_bitcoinqt_on_tails)
-
 Your bitcoin.conf will look like this:
 
 `prune=10000`  
 `proxy=127.0.0.1:9050`
+
+For better privacy/security you may want to add:
+
+* `onlynet=onion` to connect only to onion addresses
+* `dns=0` and `dnsseed=0` to prevent DNS queries
+
+(Source: https://bitcoin.stackexchange.com/questions/70069/how-can-i-setup-bitcoin-to-be-anonymous-with-tor)
 
 **LAUNCH BITCOIN CORE**
 
