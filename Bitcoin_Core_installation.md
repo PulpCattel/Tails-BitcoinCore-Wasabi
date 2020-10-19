@@ -14,7 +14,7 @@ As of now (Bitcoin's block 653435), the Bitcoin Core PGP key fingerprint is: `01
 
 Extract your bitcoin.tar.gz file in the persistent storage.
 
-`/Persistent`
+`/Persistent`  
 &emsp; `/bitcoin-0.20.1` (Bitcoin Core launcher folder)
 
 
@@ -28,9 +28,9 @@ In order to make it work with Tails and a USB, we need to slightly configure our
 
 Create a folder inside the persistent storage, e.g. `Bitcoin`, this’ll be the Bitcoin Core data directory. Create with text editor a bitcoin.conf file inside it.
 
-`/Persistent`
-&emsp; `/bitcoin-0.20.1` (Bitcoin Core launcher folder)
-&emsp; `/Bitcoin` (Bitcoin Core data folder)
+`/Persistent`  
+&emsp; `/bitcoin-0.20.1` (Bitcoin Core launcher folder)  
+&emsp; `/Bitcoin` (Bitcoin Core data folder)  
 &emsp; &emsp; `bitcoin.conf` (Configuration file)
 
 First we need pruning, since we likely don’t have >256GB in our storage. Add:
@@ -47,7 +47,7 @@ Then we need to add a proxy to make Bitcoin Core work with Tor. Add:
 
 Your bitcoin.conf will look like this:
 
-`prune=10000`
+`prune=10000`  
 `proxy=127.0.0.1:9050`
 
 **LAUNCH BITCOIN CORE**
@@ -67,8 +67,8 @@ At every new session Bitcoin Core will ask you for the data directory, choose yo
 
 A simple way to check receiving payments is to open the Bitcoin Core console from *Window > Console* and type:
 
-`importaddress address ‘’ false`
-or
+`importaddress address ‘’ false`  
+or  
 `importpubkey pubkey ‘’ false`
 
 * `importaddress`/`importpubkey`: is the command.
