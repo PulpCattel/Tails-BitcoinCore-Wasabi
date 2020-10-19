@@ -20,7 +20,7 @@ http://wasabiukrxmkdgve5kynjztuovbg43uxcbcxn6y2okcrsg7gb6jdmbad.onion (Tor onion
 or  
 https://www.wasabiwallet.io/#download
 
-Verify the PGP signature of the downloaded package. As of now (Bitcoin block 627049), the zkSNACKs' PGP key fingerprint is:   `6FB3 872B 5D42 292F 5992 0797 8563 4832 8949 861E`.
+Verify the PGP signature of the downloaded package. As of now (Bitcoin block 653435), the zkSNACKs' PGP key fingerprint is:   `6FB3 872B 5D42 292F 5992 0797 8563 4832 8949 861E`.
 
 (Source: https://docs.wasabiwallet.io/using-wasabi/InstallPackage.html#debian-and-ubuntu)
 

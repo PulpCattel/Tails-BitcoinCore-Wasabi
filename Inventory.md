@@ -10,7 +10,7 @@ Do it in a safe location with a computer that you trust.
 * Tails.img
 from https://tails.boum.org/install/download/index.en.html.
 Use great care to check that the file downloaded is the original Tails.img from the official site. 
-As of now (Bitcoin's block 627049) this is the Tails PGP key fingerprint: `A490 D0F4 D311 A415 3E2B  B7CA DBB8 02B2 58AC D84F`.
+As of now (Bitcoin's block 653435) this is the Tails PGP key fingerprint: `A490 D0F4 D311 A415 3E2B  B7CA DBB8 02B2 58AC D84F`.
 
 
 **RECOMMENDED**
