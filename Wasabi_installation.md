@@ -1,7 +1,5 @@
 # Wasabi installation
 
-(You can also refer to the [Wasabi setup on Tails](https://docs.wasabiwallet.io/using-wasabi/WasabiSetupTails.html#wasabi-setup-on-tails) included in the Wasabi documentation, which is based on this guide and more likely to be up to date)
-
 **CREATE ADMIN PASSWORD**
 
 You need sudo privileges to install Wasabi, at “Tails Greeter” create your admin password in “additional settings” and launch Tails.
